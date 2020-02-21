@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../cropped-bkg.png);
+    background-size: 40vw;
+    background-repeat: no-repeat;
+}
+
+
+/* ~~~~~~~~~~~~~~~~ Nav Bar ~~~~~~~~~~~~~~ */
+
+nav {
+    font-family: myriad-pro, sans-serif;
+    background-color: #cec0bc;
+    height: 10vh;
+}
+
+nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 22px 47px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#logo {
+    /* border: 2px black solid; */
+    text-align: left;
+    margin-right: 40vw;
+    margin-top: -17px;
+    margin-left: 5px;
+}
+
+#shopping-bag {
+    margin-top: -7px;
+}
+
+#profile {
+    margin-top: -8px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~ Left Part - Description ~~~~~~~~~~~~~~ */
+
+.Description {
+    position: relative;
+    left: 5vw;
+    font-family: myriad-pro, sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    padding-bottom: 25px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+/* paragraph */
+
+p {
+    margin-top: 20vh;
+    margin-bottom: 13vh;
+    font-size: 17px;
+    font-weight: 200;
+    font-style: normal;
+    width: 28vw;
+    line-height: 1.3em;
+}
+
+/* 'Next Step' button */
+button {
+    border: 0;
+    background: none;
+}
+
+button a {
+    text-decoration: none;
+}
+
+h5 {
+    display: inline;
+    font-size: 19px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Arrow {
+    padding-left: 20px;
+    position: relative;
+    top: 6px;
+}
+
+/* ~~~~~~~~~~~~~~~~ Setting Up Grid Structure ~~~~~~~~~~~~~~ */
+.Products {
+    margin-left: 45vw;
+    margin-top: -57vh;
+    display: grid;
+    /* border: 2px greenyellow solid; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 0;
+}
+
+.Products img {
+    border-radius: 6%;
+}
+
+.box {
+    width: 300px;
+    /* border: 2px pink solid; */
+}
+
+
+
+
+
+

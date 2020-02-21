@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+}
+
+/* ~~~~~~~~~~~~~~~~ Nav Bar ~~~~~~~~~~~~~~ */
+
+nav {
+    font-family: myriad-pro, sans-serif;
+    background-color: #cec0bc;
+    height: 10vh;
+}
+
+nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 22px 47px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#logo {
+    /* border: 2px black solid; */
+    text-align: left;
+    margin-right: 40vw;
+    margin-top: -17px;
+    margin-left: 5px;
+}
+
+#shopping-bag {
+    margin-top: -7px;
+}
+
+#profile {
+    margin-top: -8px;
+}
+
+/* ~~~~~~~~~~~~~~~~ Banner ~~~~~~~~~~~~~~ */
+
+.banner {
+    height: 250px;
+    background-image: url(https://scontent.fagc2-1.fna.fbcdn.net/v/t1.0-9/86970318_1555385647958813_5551550937262194688_o.jpg?_nc_cat=108&_nc_ohc=aUsOL4Z90gsAX8Wxa7i&_nc_ht=scontent.fagc2-1.fna&oh=b6eed69219bec9f272bd92a791a38842&oe=5EF8B432);
+    background-size: 101vw;
+    background-position: center;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #493733;
+    padding-top: 65px;
+    margin-left: 65vw;
+}
+
+button {
+    border: 0;
+    background: none;
+    margin-left: 77vw;
+    padding-top: 16px;
+}
+
+button h4 {
+    padding-left: 20px;
+    font-size: 20px;
+    display: inline;
+}
+
+.Arrow {
+    position: relative;
+    top: 4px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+/* ~~~~~~~~~~~~~~~~ Pick your Color ~~~~~~~~~~~~~~ */
+.custom-title {
+    height: 100px;
+}
+
+.custom-title h2 {
+    padding-top: 34px;
+    padding-left: 50px;
+    font-weight: 300;
+}
+
+.custom-title h2 span {
+    font-weight: 600;
+}
+
+.color-choices {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-gap: 0 30px;
+    margin-left: 50px;  
+}
+
+.color-choices div {
+    width: 270px;
+}
+
+/* ~~~~~~~~~~~~~~~~ Pick your Fabric ~~~~~~~~~~~~~~ */
+.horizontal-line {
+    margin-top: 34px;
+    height: 50px;
+    /* border: 2px black solid; */
+}
+
+hr {
+    width: 83vw;
+    height: 2px;
+    border: none;
+    background-color: #cec0bc;
+    margin: 40px auto;
+    margin-top: 60px;
+}
+
+#fabric-title {
+    height: 80px;
+}
+
+#fabric-title h2 {
+    padding-top: 5px;
+}
+
+.fabric-choices {
+    display: grid;
+    grid-template-columns: repeat(2, 550px);
+    grid-gap: 30px;
+    margin-left: 70px;
+}
+
+/* ~~~~~~~~~~~~~~~~ Bottom Buttons ~~~~~~~~~~~~~~ */
+.bottom-buttons {
+    margin: 70px 0;
+}
+
+.bottom-buttons h3 {
+    display: inline;
+    font-weight: 300;
+    border: 2px #cec0bc solid;
+    padding: 15px 50px; 
+    border-radius: 8px; 
+}
+
+.bottom-buttons img {
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+#left-button {
+    margin-left: 33vw;
+    margin-right: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
