@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+}
+
+/* ~~~~~~~~~~~~~~~~ Nav Bar ~~~~~~~~~~~~~~ */
+
+nav {
+    font-family: myriad-pro, sans-serif;
+    background-color: #cec0bc;
+    height: 10vh;
+}
+
+nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+
+/* fix this when have time */
+    padding: 22px 47px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#logo {
+    /* border: 2px black solid; */
+    text-align: left;
+    margin-right: 40vw;
+    margin-top: -17px;
+    margin-left: 5px;
+}
+
+#shopping-bag {
+    margin-top: -7px;
+}
+
+#profile {
+    margin-top: -8px;
+}
+
+
+/* Left Section */
+
+.title {
+    width: 68vw;
+    text-align: left;
+}
+
+.title h1 {
+    color: #493733;
+    padding-top: 35px;
+    padding-left: 4vw;
+    padding-bottom: 15px;
+    font-weight: 200;
+    display: inline-block;
+}
+
+.cart-box {
+    margin-left: 4vw;
+    border: 2px solid #cec0bc;
+    border-radius: 10px;
+    width: 60vw;
+    height: 330px;
+    float: left;
+}
+
+.cart-image {
+    float: left;
+    padding: 30px;
+    padding-right: 15px;
+}
+
+.cart-details {
+    /* padding-top: 20px; */
+    width: 35vw;
+    float: left;
+    padding: 25px;
+}
+
+.cart-details div {
+    padding: 15px 0 0 0;
+}
+
+.cart-details #color {
+    margin-top: 80px;
+}
+
+.cart-details .add-space-above {
+    padding-top: 100px;
+}
+
+.cart-details p {
+    font-size: 18px;
+    display: inline;
+}
+
+.left-section {
+    width: 68vw;
+    float: left;
+}
+
+.remove-item {
+    margin-top: 15px;
+    padding: 10px;
+    float: right;
+    background: none;
+}
+
+
+/* Order Summary */
+
+.right-section {
+    /* margin-left: 30px; */
+    background-image: url(https://scontent.fewr1-5.fna.fbcdn.net/v/t1.0-9/89295750_1570580519772659_6773537543213285376_o.jpg?_nc_cat=107&_nc_sid=e007fa&_nc_ohc=5QhQdTiwTmYAX_OVpE0&_nc_ht=scontent.fewr1-5.fna&oh=84c855f65b062d3920f00b3e3246a678&oe=5E816E39);
+    background-size: 100vh;
+    width: 32vw;
+    height: 100vh;
+    float: right;
+/* fix this when have time */
+    margin-top: -22px;
+}
+
+.right-section h3 {
+    font-weight: 100;
+    margin: 10vh 0 15px 4.5vw;
+    font-size: 20px;
+}
+
+.receipt {
+    width: 23vw;
+    height: 340px;
+    margin: 0 auto;
+    background-color: white; opacity: 0.65;
+    /* margin-top: 10vh; */
+    border-radius: 6px;
+}
+
+.receipt p {
+    display: inline;
+}
+
+.receipt-content {
+    width: 18vw;
+    /* line-height: 30px; */
+    padding-left: 2vw;
+    padding-top: 20px;
+}
+
+.receipt-content .back-text {
+    float: right;
+}
+
+.receipt hr {
+    width: 19vw;
+    margin: 6vh auto 2vh auto;
+}
+
+#discount-code {
+    padding-top: 15px;
+}
+
+#check-out-button {
+    /* fix this when have time - make it center */
+    margin: 6vh auto 0 6.5vw;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: none;
+    padding: 10px 30px;
+}
