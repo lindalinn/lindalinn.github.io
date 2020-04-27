@@ -23,3 +23,4 @@ function updateCartTotal() {
     }
     document.getElementByClassName('back-text total-price')[0].innerText = '$' + total
 }
+

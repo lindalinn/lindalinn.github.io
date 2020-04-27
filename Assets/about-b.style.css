@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#fixed-logo {
+    width: 70px;
+    padding: 30px 0 0 2vw;
+    position: fixed;
+}
+
+.left-section {
+    float: left;
+    width: 55%;
+    height: 100vh;
+    /* position: relative; */
+}
+
+.left-section h1 {
+    transform: rotate(-90deg);
+    position: fixed;
+    left: -5vw;
+    bottom: 40vh;
+    font-size: 2vw;
+}
+
+.right-section {
+    float: left;
+    width: 45%;
+    height: 100vh;
+    overflow-y: scroll;
+    position: relative;   
+    /* border: 2px black solid; */
+}
+
+#profile-b {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    object-fit: fill;
+    /* object-position: 0 -100px; */
+}
+
+#resume {
+    margin-top: 270px;
+    width: 68%;
+    padding-left: 8%;
+}
+
+#resume h2 {
+    text-align: right;
+}
+
+#resume div {
+    padding-bottom: 40px;
+}
+
+.indented-list {
+    padding-left: 12%;
+}
+
+.indented-list li {
+    margin-bottom: 5px;
+}
+
+#work-experience {
+    padding-bottom: 0 !important;
+}
+
+
+
+
+
