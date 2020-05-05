@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/bkg3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ~~~~~~~~~~~ Content CSS ~~~~~~~~~~~~ */
+#fixed-logo {
+    width: 120px;
+}
+
+.header {
+    text-align: center;
+    height: 15vh;
+    padding-top: 7vh;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nav-bar {
+    text-align: center;
+    height: 40vh;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    /* border: 2px black solid; */
+    text-align: center;
+}
+
+.menu-items {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 8px;
+}
+
+.nav-bar h1 {
+    display: inline;
+    font-size: 10vh;
+    padding: 0 3vw;
+    color: black;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+
+h1 a:hover {
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    height: 10vh;
+    padding-top: 20vh;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* ~~~~~~~~~~~ Animation  ~~~~~~~~~~~~ */
+html.sr .load-hidden {
+    visibility: hidden;
+}
+  
+.expand:hover {
+    transform: scale(1.5);
+} /* not working */
+
+
+/* ~~~~~~~~~~ Media Queries ~~~~~~~~~~~~~ */
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 400px) {
+    .menu-items {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .menu-items h1 {
+        text-align: center;
+        display: block;
+        font-size: 45px;
+        margin: 10px auto;
+    }
+    .footer {
+        width: 60vw;
+        margin: 0 auto;
+    }
+}

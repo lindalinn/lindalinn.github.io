@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="https://unpkg.com/scrollreveal@4"></script>
+	    <script>
+		    ScrollReveal({ duration: 1000 })
+        </script>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!-- ~~~~~~~~~~~  Header  ~~~~~~~~~~~~ -->
+        <div class="header load-hidden">
+            <a href="index.html"><img id="fixed-logo" src="../images/logo.png"></a>
+        </div>
+        
+        <!-- ~~~~~~~~~~~  Nav Bar  ~~~~~~~~~~~~ -->
+        <div class="nav-bar load-hidden">
+            <div class="menu-items">
+                <h1 class="expand"><a href="../about/about.html">About Me.</a></h1>
+                <h1 class="expand"><a href="../passion-projects/passion-project.html">Passion Projects.</a></h1>
+                <h1 class="expand"><a href="../ux-projects/ux-projects.html">UX Design.</a></h1>
+            </div>
+        </div>
+
+        <!-- ~~~~~~~~~~~  Footer  ~~~~~~~~~~~~ -->
+        <div class="footer load-hidden">
+            <p>User Experience Designer, Fashion Design Enthusiast</p>
+        </div>
+
+        <!-- ~~~~~~~~~~~ Animation  ~~~~~~~~~~~~ -->
+        <script>
+            ScrollReveal().reveal('.header')
+            ScrollReveal().reveal('.nav-bar', { delay: 500 })
+            ScrollReveal().reveal('.footer', { delay: 1000 })
+        </script>
+    </body>
+</html>
